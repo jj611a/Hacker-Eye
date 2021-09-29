@@ -99,10 +99,6 @@ clear
 printf "loading dependencies!....done. "
 sleep 3
 clear
-
-
-
-command -v xfce4-terminal > /dev/null 2>&1 || { echo >&2 "I require xfce4-terminal but it's not installed. Install it with ( sudo apt-get install xfce4-terminal ) ... Aborting."; exit 1; }
 }
 menu() {
 printf "################################################################################ \n"
