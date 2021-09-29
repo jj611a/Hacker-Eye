@@ -81,7 +81,9 @@ clear
 printf "loading dependencies!....\ " 
 sleep 0.5
 clear
-printf "loading dependencies!....| " 
+printf "loading dependencies!....| \n" 
+printf "stopping apache2 service if it is running! \n"
+sudo service apache2 restart
 sleep 1
 clear
 printf "loading dependencies!..../"
